@@ -1,8 +1,10 @@
+import { server } from './lib/server.js';
+
 const app = {};
 
 app.init = () => {
     
-    console.log('testing...');
+    server.init();
 }
 
 app.init();
